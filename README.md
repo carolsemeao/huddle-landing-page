@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [My solution](https://www.frontendmentor.io/solutions/responsive-huddle-landing-page-with-flexbox-6kBokMonxg)
+- Live Site URL: [https://carolsemeao.github.io/huddle-landing-page/](https://carolsemeao.github.io/huddle-landing-page/)
 
 ## My process
 
