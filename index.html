@@ -3,30 +3,55 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Huddle landing page with single introductory section</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <!-- Google Fonts connection -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 6.4.0 CDN-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Huddle landing page with single introductory section</title>
 </head>
 <body>
+  <a href="#main" class="skip-to-content">Skip to Content</a>
+  <header class="primary-header" aria-label="header">
+    <img src="images/logo.svg" alt="Huddle Logo" id="logo">
+  </header>
 
-  Build The Community Your Fans Will Love
+  <main id="main" class="primary-container flex" aria-label="main">
+    <img src="images/illustration-mockups.svg" alt="illustration mockups">
+    <div class="flex">
+      <h1 class="fs-800 fw-600 ff-heading lh-1">Build The Community Your Fans Will Love</h1>
+    
+      <p class="fs-400 fw-400 lh-2">
+        Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+        Create connections with your users as you engage in genuine discussion. 
+      </p>
 
-  Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-  Create connections with your users as you engage in genuine discussion. 
+      <a href="#" class="main-btn flex bg-white txt-purple fs-300" aria-label="register button">Register</a>
+    </div>
+  </main>
 
-  Register
+  <div class="socials flex" aria-label="social links">
+    <a href="#" class="icon facebook flex txt-white">
+      <i class="fa-brands fa-facebook-f fs-300"></i>
+    </a>
+    <a href="#" class="icon twitter flex txt-white">
+      <i class="fa-brands fa-twitter fs-300"></i>
+    </a>
+    <a href="#" class="icon instagram flex txt-white">
+      <i class="fa-brands fa-instagram fs-300"></i>
+    </a>
+  </div>
 
-  <footer>
-    <p class="attribution">
+  <footer class="attribution" aria-label="footer">
+    <p class="fs-300">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="https://www.frontendmentor.io/profile/carolsemeao" target="_blank">Carolina Semeao</a>.
     </p>
   </footer>
 </body>
