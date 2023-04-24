@@ -247,8 +247,8 @@ select {
 
     .primary-container {
         --gap: 3.5rem;
-        flex-direction: row;
-        align-items: center;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .primary-container div {
